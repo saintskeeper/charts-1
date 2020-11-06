@@ -182,7 +182,7 @@ proxy:
   tls:
     # Enable HTTPS listen for the proxy
     enabled: true
-    servicePort: 443
+    servicePort: 9443
     containerPort: 8443
     # Set a target port for the TLS port in proxy service, useful when using TLS
     # termination on an ELB.
